@@ -137,13 +137,13 @@ int main()
 	{
 	    // define the solution near the horizon, real and imaginary parts, separately
             r = r0;
-	    h = h0;		
-	    Phi1  = 1.;                   // Phi_A1(r,omega[i]);
-    	    Phi2  = 0.;                   // Phi_A2(r,omega[i]);
+            h = h0;		
+            Phi1  = 1.;                   // Phi_A1(r,omega[i]);
+            Phi2  = 0.;                   // Phi_A2(r,omega[i]);
             dPhi1 = 0;                    //-RH/pow((RH+exp(z)),2.0)*exp(z);
             dPhi2 = omega[i]/kH/2./(r-RH);
             C1 = 0.;
-	    C2 = 0.;
+            C2 = 0.;
             while(1)
 	    {
 	        h=h0;
